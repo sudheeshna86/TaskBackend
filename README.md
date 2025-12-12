@@ -146,9 +146,6 @@ Endpoint: Delete http://localhost:5000/api/tasks/:id
 
 ---
 
-## Contributing
-
-Contributions welcome — open PRs or issues for new features and bug fixes.
 
 ---
 
