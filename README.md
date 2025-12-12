@@ -84,7 +84,7 @@ JWT_EXPIRES_IN=7d
 
 ```bash
 # clone repo
-git clone https://github.com/sudheeshna86/TaskBackend
+git clone https://github.com/sudheeshna86/TaskBackend.git
 cd TaskBackend
 npm install
 # ensure MongoDB is running and .env is configured
