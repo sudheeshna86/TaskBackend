@@ -65,7 +65,6 @@ JWT_EXPIRES_IN=7d
 | ------ | ------- | ----------- |
 | POST | /api/auth/register | Register a new user. Body:  |
 | POST | /api/auth/login | Login and obtain JWT. Body: ` |
-| GET | /api/auth/profile | Get current logged-in user's profile (protected) |
 
 ### Tasks (Protected)
 
@@ -85,6 +84,7 @@ JWT_EXPIRES_IN=7d
 
 ```bash
 # clone repo
+git clone https://github.com/sudheeshna86/TaskBackend
 cd TaskBackend
 npm install
 # ensure MongoDB is running and .env is configured
