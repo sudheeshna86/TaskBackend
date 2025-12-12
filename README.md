@@ -94,7 +94,7 @@ Default server URL: `http://localhost:5000`
 ## Test Accounts
 Optionally register new accounts or use these seeds if available:
 
-- chandu@gmail.com | Password: 123456
+- demo@gmail.com | Password: 123456
 - honey@gmail.com  | Password: 123456
 
 ---
