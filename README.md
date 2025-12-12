@@ -98,31 +98,41 @@ Optionally register new accounts or use these seeds if available:
 - honey@gmail.com  | Password: 123456
 
 ---
-## Postman / curl Examples
+## Postman
 
-Register
-```bash
-curl -X POST http://localhost:5000/api/auth/register \
-  -H "Content-Type: application/json" \
-  -d '{"fullName":"Chandu", "username":"chandu", "email":"chandu@example.com", "password":"123456"}'
-```
+1. Register a User
 
-Login
-```bash
-curl -X POST http://localhost:5000/api/auth/login \
-  -H "Content-Type: application/json" \
-  -d '{"usernameOrEmail":"chandu", "password":"123456"}'
-```
+Endpoint: POST http://localhost:5000/api/auth/register
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f4132ac1-1854-4634-a4aa-26fc2cfba8e8" />
 
-Create Task (replace <TOKEN> with your Bearer token)
-```bash
-curl -X POST http://localhost:5000/api/tasks \
-  -H "Content-Type: application/json" \
-  -H "Authorization: Bearer <TOKEN>" \
-  -d '{"title":"My Task", "description":"Do something", "priority":"medium", "status":"pending" }'
-```
+2. Login a User
 
----
+Endpoint: POST http://localhost:5000/api/auth/login
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9f625e43-5cf0-48c5-b814-a8fa534d9be3" />
+
+
+3. Creat a task
+
+Endpoint: POST http://localhost:5000/api/tasks
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ce03604b-fd02-4e47-864f-7bc6e0f6f219" />
+
+
+4. Get the Task List
+
+Endpoint: Get http://localhost:5000/api/tasks
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3b5df5e5-1aac-4d2b-9cb9-f34b9680063e" />
+
+
+5. Update task
+
+Endpoint: Put http://localhost:5000/api/tasks/:id
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2157b151-6949-4d50-aded-9c70d1aa92a9" />
+
+6.Delete Task
+
+Endpoint: Delete http://localhost:5000/api/tasks/:id
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b5ed2830-bf60-4149-a123-5dac1848b70a" />
+
 
 
 
